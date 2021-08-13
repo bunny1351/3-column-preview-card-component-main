@@ -9,6 +9,12 @@ body {
   background-color: $veryLightGrey;
 }
 .container {
+    display: flex;
+    border-color: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 13vh auto;
+
   .card {
     border-color: transparent;
     padding: 50px 55px;
@@ -31,7 +37,7 @@ body {
   .orange {
     background-color: $brightOrange;
 
-    #learn {
+    .learn {
       color: $brightOrange;
       background-color: $veryLightGrey;
       padding: 10px 20px;
@@ -45,7 +51,7 @@ body {
   .cyan {
     background-color: $darkCyan;
 
-    #learn {
+    .learn {
       color: $darkCyan;
       background-color: $veryLightGrey;
       padding: 10px 20px;
@@ -59,7 +65,7 @@ body {
   .dcyan {
     background-color: $veryDarkCyan;
 
-    #learn {
+    .learn {
       color: $veryDarkCyan;
       background-color: $veryLightGrey;
       padding: 10px 20px;
@@ -70,7 +76,7 @@ body {
     }
   }
 
-  #learn:hover {
+  .learn:hover {
     background-color: transparent;
     color: $veryLightGrey;
     border: 2px solid $veryLightGrey;
@@ -80,26 +86,16 @@ body {
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .container {
-    display: flex;
     flex-direction: column;
-    border-color: transparent;
-    border-radius: 5px;
-    overflow: hidden;
     width: 90vw;
-    margin: 5vh auto;
     max-width: 340px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    display: flex;
     flex-direction: row;
-    border-color: transparent;
-    border-radius: 5px;
-    overflow: hidden;
     width: 90vw;
-    margin: 15vh auto;
     max-width: 800px;
   }
 }

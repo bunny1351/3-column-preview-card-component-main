@@ -8,6 +8,13 @@ body {
   background-color: #f2f2f2;
 }
 
+.container {
+  display: flex;
+  border-color: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 13vh auto;
+}
 .container .card {
   border-color: transparent;
   padding: 50px 55px;
@@ -27,7 +34,7 @@ body {
 .container .orange {
   background-color: #e38826;
 }
-.container .orange #learn {
+.container .orange .learn {
   color: #e38826;
   background-color: #f2f2f2;
   padding: 10px 20px;
@@ -39,7 +46,7 @@ body {
 .container .cyan {
   background-color: #006970;
 }
-.container .cyan #learn {
+.container .cyan .learn {
   color: #006970;
   background-color: #f2f2f2;
   padding: 10px 20px;
@@ -51,7 +58,7 @@ body {
 .container .dcyan {
   background-color: #004241;
 }
-.container .dcyan #learn {
+.container .dcyan .learn {
   color: #004241;
   background-color: #f2f2f2;
   padding: 10px 20px;
@@ -60,7 +67,7 @@ body {
   border-color: transparent;
   cursor: pointer;
 }
-.container #learn:hover {
+.container .learn:hover {
   background-color: transparent;
   color: #f2f2f2;
   border: 2px solid #f2f2f2;
@@ -69,25 +76,15 @@ body {
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .container {
-    display: flex;
     flex-direction: column;
-    border-color: transparent;
-    border-radius: 5px;
-    overflow: hidden;
     width: 90vw;
-    margin: 5vh auto;
     max-width: 340px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    display: flex;
     flex-direction: row;
-    border-color: transparent;
-    border-radius: 5px;
-    overflow: hidden;
     width: 90vw;
-    margin: 15vh auto;
     max-width: 800px;
   }
 }
