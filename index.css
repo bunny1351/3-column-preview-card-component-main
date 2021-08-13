@@ -4,11 +4,70 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
-  body {
-    background-color: #f2f2f2;
-  }
+body {
+  background-color: #f2f2f2;
+}
 
+.container .card {
+  border-color: transparent;
+  padding: 50px 55px;
+}
+.container .card h1 {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  margin: 25px 0;
+  text-transform: uppercase;
+}
+.container .card p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  margin: 35px 0;
+}
+.container .orange {
+  background-color: #e38826;
+}
+.container .orange #learn {
+  color: #e38826;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  border-color: transparent;
+  cursor: pointer;
+}
+.container .cyan {
+  background-color: #006970;
+}
+.container .cyan #learn {
+  color: #006970;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  border-color: transparent;
+  cursor: pointer;
+}
+.container .dcyan {
+  background-color: #004241;
+}
+.container .dcyan #learn {
+  color: #004241;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  border-color: transparent;
+  cursor: pointer;
+}
+.container #learn:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -19,70 +78,8 @@
     margin: 5vh auto;
     max-width: 340px;
   }
-  .container .card {
-    border-color: transparent;
-    padding: 50px 55px;
-  }
-  .container .card h1 {
-    color: #f2f2f2;
-    font-family: "Big Shoulders Display", cursive;
-    margin: 25px 0;
-    text-transform: uppercase;
-  }
-  .container .card p {
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.75);
-    font-family: "Lexend Deca", sans-serif;
-    margin: 35px 0;
-  }
-  .container .orange {
-    background-color: #e38826;
-  }
-  .container .orange #learn {
-    color: #e38826;
-    background-color: #f2f2f2;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-family: "Lexend Deca", sans-serif;
-    border-color: transparent;
-    cursor: pointer;
-  }
-  .container .cyan {
-    background-color: #006970;
-  }
-  .container .cyan #learn {
-    color: #006970;
-    background-color: #f2f2f2;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-family: "Lexend Deca", sans-serif;
-    border-color: transparent;
-    cursor: pointer;
-  }
-  .container .dcyan {
-    background-color: #004241;
-  }
-  .container .dcyan #learn {
-    color: #004241;
-    background-color: #f2f2f2;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-family: "Lexend Deca", sans-serif;
-    border-color: transparent;
-    cursor: pointer;
-  }
-  .container #learn:hover {
-    background-color: transparent;
-    color: #f2f2f2;
-    border: 2px solid #f2f2f2;
-    border-radius: 20px;
-  }
 }
 @media screen and (min-width: 768px) {
-  body {
-    background-color: #f2f2f2;
-  }
-
   .container {
     display: flex;
     flex-direction: row;
@@ -92,64 +89,6 @@
     width: 90vw;
     margin: 15vh auto;
     max-width: 800px;
-  }
-  .container .card {
-    border-color: transparent;
-    padding: 50px 55px;
-  }
-  .container .card h1 {
-    color: #f2f2f2;
-    font-family: "Big Shoulders Display", cursive;
-    margin: 25px 0;
-    text-transform: uppercase;
-  }
-  .container .card p {
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.75);
-    font-family: "Lexend Deca", sans-serif;
-    margin: 35px 0;
-  }
-  .container .orange {
-    background-color: #e38826;
-  }
-  .container .orange #learn {
-    color: #e38826;
-    background-color: #f2f2f2;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-family: "Lexend Deca", sans-serif;
-    border-color: transparent;
-    cursor: pointer;
-  }
-  .container .cyan {
-    background-color: #006970;
-  }
-  .container .cyan #learn {
-    color: #006970;
-    background-color: #f2f2f2;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-family: "Lexend Deca", sans-serif;
-    border-color: transparent;
-    cursor: pointer;
-  }
-  .container .dcyan {
-    background-color: #004241;
-  }
-  .container .dcyan #learn {
-    color: #004241;
-    background-color: #f2f2f2;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-family: "Lexend Deca", sans-serif;
-    border-color: transparent;
-    cursor: pointer;
-  }
-  .container #learn:hover {
-    background-color: transparent;
-    color: #f2f2f2;
-    border: 2px solid #f2f2f2;
-    border-radius: 20px;
   }
 }
 
