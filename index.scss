@@ -1,0 +1,176 @@
+@import "variables.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  body {
+    background-color: $veryLightGrey;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    border-color: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 90vw;
+    margin: 5vh auto;
+    max-width: 340px;
+
+    .card {
+      border-color: transparent;
+      padding: 50px 55px;
+
+      h1 {
+        color: $veryLightGrey;
+        font-family: $bigShoulders;
+        margin: 25px 0;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: $bodyFont;
+        color: $paraWhite;
+        font-family: $lexendDeca;
+        margin: 35px 0;
+      }
+    }
+
+    .orange {
+      background-color: $brightOrange;
+
+      #learn {
+        color: $brightOrange;
+        background-color: $veryLightGrey;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-family: $lexendDeca;
+        border-color: transparent;
+        cursor: pointer;
+      }
+    }
+
+    .cyan {
+      background-color: $darkCyan;
+
+      #learn {
+        color: $darkCyan;
+        background-color: $veryLightGrey;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-family: $lexendDeca;
+        border-color: transparent;
+        cursor: pointer;
+      }
+    }
+
+    .dcyan {
+      background-color: $veryDarkCyan;
+
+      #learn {
+        color: $veryDarkCyan;
+        background-color: $veryLightGrey;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-family: $lexendDeca;
+        border-color: transparent;
+        cursor: pointer;
+      }
+    }
+
+    #learn:hover {
+      background-color: transparent;
+      color: $veryLightGrey;
+      border: 2px solid $veryLightGrey;
+      border-radius: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+      background-color: $veryLightGrey;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: row;
+      border-color: transparent;
+      border-radius: 5px;
+      overflow: hidden;
+      width: 90vw;
+      margin: 15vh auto;
+      max-width: 800px;
+  
+      .card {
+        border-color: transparent;
+        padding: 50px 55px;
+  
+        h1 {
+          color: $veryLightGrey;
+          font-family: $bigShoulders;
+          margin: 25px 0;
+          text-transform: uppercase;
+        }
+  
+        p {
+          font-size: $bodyFont;
+          color: $paraWhite;
+          font-family: $lexendDeca;
+          margin: 35px 0;
+        }
+      }
+  
+      .orange {
+        background-color: $brightOrange;
+  
+        #learn {
+          color: $brightOrange;
+          background-color: $veryLightGrey;
+          padding: 10px 20px;
+          border-radius: 20px;
+          font-family: $lexendDeca;
+          border-color: transparent;
+          cursor: pointer;
+        }
+      }
+  
+      .cyan {
+        background-color: $darkCyan;
+  
+        #learn {
+          color: $darkCyan;
+          background-color: $veryLightGrey;
+          padding: 10px 20px;
+          border-radius: 20px;
+          font-family: $lexendDeca;
+          border-color: transparent;
+          cursor: pointer;
+        }
+      }
+  
+      .dcyan {
+        background-color: $veryDarkCyan;
+  
+        #learn {
+          color: $veryDarkCyan;
+          background-color: $veryLightGrey;
+          padding: 10px 20px;
+          border-radius: 20px;
+          font-family: $lexendDeca;
+          border-color: transparent;
+          cursor: pointer;
+        }
+      }
+  
+      #learn:hover {
+        background-color: transparent;
+        color: $veryLightGrey;
+        border: 2px solid $veryLightGrey;
+        border-radius: 20px;
+      }
+    }
+  }
+  
